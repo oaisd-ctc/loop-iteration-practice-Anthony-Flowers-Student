@@ -3,13 +3,19 @@
 
 public class Program
 {
+    static int n;
+    static int _base;
+
     public static void Main(string[] args)
     {
-       
-    }
-    public static void Write1ThroughN_While()
-    {
 
+    }
+    public static void Write1ThroughN_While(int n)
+    {
+               while (n > 1)
+       {
+        Console.WriteLine(n + "")
+       }
     }
     public static void Write1ThroughN_For()
     {
@@ -46,7 +52,7 @@ public class Program
     }
     public static void OutOfRangeMessage()
     {
-        
+
     }
 }
 
